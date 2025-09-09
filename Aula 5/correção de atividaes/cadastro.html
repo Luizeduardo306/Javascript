@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let nome = prompt("Digiteseunome de usuário")
+        let senha = prompt("Digite sua senha:")
+
+        for (i = 0;i<2;i+=1){
+            if (nome == "usuário" && senha == "1234"){
+
+               
+                console.log("Login efetuado com sucesso!")
+                 break
+
+            }else{
+                nome = prompt("Digite seu nome de usuário")
+                senha = prompt("Digite sua senha:")
+
+                console.log("tente novamente")
+            }
+        }
+
+
+ 
+    </script>
+
+</body>
+</html>
