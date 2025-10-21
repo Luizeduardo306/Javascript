@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="resultado" onclick="mudarTexto()">Resultado</p>
+    
+    <script>
+
+        let objeto = {
+            "nome":"Luiz",
+            idade:16,
+        }
+        function mudarTexto(){
+            //  Encontrar o elemento
+            let paragrafo = docment.querySelector
+            ("#resultado")
+            //  Acessar ou mudar i cibteúdo de texto
+            paragrafo.textContent = "Novo valor"
+            // Acessar o CSS inlinedo elemento
+            paragrafo.style.color = "red"
+        }
+    </script>
+</body>
+</html>

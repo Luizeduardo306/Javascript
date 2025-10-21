@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h1>Gerenciador de Tarefas</h1>
+
+    <input type="text" placeholder="digite a Tarefa:"><br>
+
+    <button onclick="adicionarTarefa">Adicionar</button>
+
+    <!--<p style="text-decoration: line-through;">palavra</p>-->
+
+    <ul id="lista">
+
+    </ul>
+
+    <script>
+        // Deve ser capaz de adicionar tarefaz em um array
+        let tarefas = []
+        function adicionarTarefa(){
+            const inoutTarefa = document.querySelector
+            ("#tarefa")
+
+            console.log(inputTarefa.value)
+            tarefas.push(inputTarefa.value)
+            // adicionem na lista
+            mostrarTarefas()
+        }
+        
+        function mostrarTarefas(){
+            const lista = document.querySelector('#lista')
+            lista.innerText = ""
+            for (task of tarefas){
+                const li = document.createElement
+                ("input")
+                checkbox.type = "checkbox"
+
+                checkbox.addEventListener("change",()=>{
+                    if (li.style.textDecoration == 
+                        "line-Through"){
+
+                            li
+                        }
+                })
+
+                li.textContent = task
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
